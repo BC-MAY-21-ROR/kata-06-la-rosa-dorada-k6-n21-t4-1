@@ -9,10 +9,6 @@ class Methods
         @item = item
     end
     
-    def AgedBrie
-        item.quality += 1
-    end
-
     def tenOrLess
         if item.quality < 50
             item.quality +=2
@@ -41,7 +37,7 @@ class Methods
         end
     end
 
-    def expiration
+    def doubleQ
         item.quality += 2
     end
 
